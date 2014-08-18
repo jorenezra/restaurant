@@ -2,7 +2,7 @@
 var siteloc = "http://localhost/restaurant";
 var scriptloc = "/scripts/"
 
-function fetchgradesheet(course, section, semid)
+function fetchorder(menu_id)
 {
   $.ajax({
       url: siteloc + scriptloc + "getorder.py",
